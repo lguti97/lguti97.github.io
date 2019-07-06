@@ -1,0 +1,68 @@
+.container-wrapper {
+  margin-bottom: 10px;
+}
+
+.container-front {
+  background-color: #000000;
+  padding-top: 20px;
+}
+
+.container-interest {
+  background-color: #000000;
+  padding-top: 20px;
+  padding-bottom: 40px;
+}
+
+.container-experience {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.company-images {
+  max-height: 200px;
+  padding-top: 20px;
+  padding-bottom: 20px; 
+}
+
+.profile-picture {
+  max-height: 350px
+}
+
+a {
+  color: #000000;
+}
+
+hr {
+  border-color: #FFFFFF; 
+}
+
+footer {
+  background: darkgray;
+}
+
+.card-header {
+  background-color: #000000
+}
+
+.affix {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+}
+
+.btn {
+  margin-top: 3px; 
+  margin-bottom: 3px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.btn-link {
+  color: #FFFFFF
+}
+
+.jumbotron {
+  margin-bottom: 0;
+}

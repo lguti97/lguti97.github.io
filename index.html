@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="styles.css">
+
+    <title>Luis's Personal Website</title>
+  </head>
+  <body>
+
+    <!-- Cover -->
+    <div class='container-front'>
+      <div class="jumbotron">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm">
+              <h1 class="display-4">Luis Gutierrez</h1>
+              <p class="lead">Software Engineer &#183; MIT '19</p>
+              <br />
+              <p>
+                <a class="btn btn-dark" href="pdf/LuisGutierrezResume.pdf" role="button">Resume</a>
+                <a class="btn btn-dark" href="https://www.linkedin.com/in/luis-alberto-gutierrez-aa8086122/" role="button">LinkedIn</a>
+                <a class="btn btn-dark" href="mailto:gutierrez.luis97@gmail.com" role="button">Email</a>
+                <a class="btn btn-dark" href="https://github.com/lguti97" role="button">Github</a>
+              </p>
+            </div>
+            <div class="col-sm">
+              <img src="images/luisPhoto.jpg" class="img-fluid rounded-circle mx-auto d-block profile-picture" alt="Responsive image">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" data-toggle="affix">
+      <a class="navbar-brand" href="#">Luis Gutierrez</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Projects</a>
+          </li>
+        </ul>
+      </div>
+    </nav>  
+
+    <!-- Interests -->
+    <div class='container-interest'>
+      <div class="container">
+        <h1 class="text-white display-4"> Interests </h1>
+        <p class="text-white lead"> I'm a self-learner and enthusiastic to pick up new things whether in engineering, entrepreneurship, or other industries. I've written software ever since back in high school when I began writing scripts for my father to automate some of his web-based tasks. I'm currently focusing my attention on maximizing my experience in system architecture, performance engineering, and fullstack projects. </p>
+        <hr>
+        <div id="accordion">
+          <div class="card">
+            <div class="card-header" id="headingOne">
+              <h5 class="mb-0">
+                <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  System & Backend Engineering
+                </button>
+              </h5>
+            </div>
+
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+              <div class="card-body">
+              I asked myself numerously "what's under the hood?". At MIT I've taken courses in <i> systems engineering, computer architecture, performance engineering, </i> and <i> operating systems </i>. In addition to that I've had experience working with large scale infrastructure at well known software companies. 
+              </div>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-header" id="headingTwo">
+              <h5 class="mb-0">
+                <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                  Full Stack Engineering
+                </button>
+              </h5>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+              <div class="card-body">
+              I'm creative when it comes to builing products from scratch. I've made multiple Android apps back when I was learning to code and also in hackathons. In addition to that I have worked on full stack projects for companies like Facebook. I'm eventually going to also be using this website to showcase all of my projects!
+              </div>
+            </div>
+          </div>
+        </div>  
+      </div>
+    </div>
+
+    <!-- Experience -->
+    <div class='container-experience'>
+      <div class="container container-experience ">
+      <h1 class="display-4"> Experience </h1>
+      <br> 
+        <div class ="row container-wrapper">
+          <div class="col-md-9">
+            <h3>MIT CSAIL</h3>
+            <h5><i>Undergraduate Researcher </i> | February - June 2019</h5>
+            <li> Built and transformed a sequential drone simulator into a distributed drone simulator in order to evaluate the challenges associated with turning sequential programs into distributed programs. </li>
+          </div>
+          <div class="col-md-3">
+            <a href = "https://www.csail.mit.edu/"><img src="images/csail.jpg" class="img-fluid rounded mx-auto d-block company-images" alt="Responsive image"></a>
+          </div>
+        </div>
+        <div class ="row container-wrapper">
+          <div class="col-md-9">
+            <h3>Twitch</h3>
+            <h5><i>Software Engineer Extern</i> |  January 2019</h5>
+            <li> Added functionality to Twitch's Webhook API, which connects millions of user subscriptions to Twitch's streamers and events a day. </li>
+          </div>
+          <div class="col-md-3">
+            <a href="https://www.twitch.tv/"><img src="images/twitch.png" class="img-fluid rounded mx-auto d-block company-images" alt="Responsive image "></a>
+          </div>
+        </div>
+        <div class ="row container-wrapper">
+          <div class="col-md-9">
+            <h3>Goldman Sachs</h3>
+            <h5><i>Engineering Summer Analyst</i> |  May - June 2018</h5>
+            <li> Re-engineered the whole loan trade booking system by utilizing a decentralized micro-service web architecture in place of monolithic process. </li>
+          </div>
+          <div class="col-md-3">
+            <a href="https://www.goldmansachs.com/"><img src="images/goldman.png" class="img-fluid rounded mx-auto d-block company-images" alt="Responsive image"></a>
+          </div>
+        </div>
+        <div class ="row container-wrapper">
+          <div class="col-md-9">
+            <h3>Facebook</h3>
+            <h5><i>Software Engineer Intern</i> | May - June 2017, May - June 2016</h5>
+            <li> Minimized developer debugging cycle for a framework that extends Litho by building a logging tool that provides detailed information of recurring operations ('17). </li>
+            <li> Developed an Android Marketing application with Parse that allows users to sell and view items posted by their friends, including having a newsfeed that queries for in-demand items ('16). </li>
+          </div>
+          <div class="col-md-3">
+            <a href="https://www.facebook.com/"><img src="images/facebook.png" class="img-fluid rounded mx-auto d-block company-images" alt="Responsive image"></a>
+          </div>
+        </div>
+      </div> 
+    </div>
+
+    <!-- Contact -->
+    <footer class="page-footer font-small pt-2">
+      <div class="footer-copyright text-center py-3"> <a href="mailto:gutierrez.luis97@gmail.com"> Contact</a>
+      </div>
+    </footer>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script>
+      $(document).ready(function() {
+
+        var toggleAffix = function(affixElement, scrollElement, wrapper) {
+        
+          var height = affixElement.outerHeight(),
+              top = wrapper.offset().top;
+          
+          if (scrollElement.scrollTop() >= top){
+              wrapper.height(height);
+              affixElement.addClass("affix");
+          }
+          else {
+              affixElement.removeClass("affix");
+              wrapper.height('auto');
+          }
+            
+        };
+        
+
+        $('[data-toggle="affix"]').each(function() {
+          var ele = $(this),
+              wrapper = $('<div></div>');
+          
+          ele.before(wrapper);
+          $(window).on('scroll resize', function() {
+              toggleAffix(ele, $(this), wrapper);
+          });
+          
+          // init
+          toggleAffix(ele, $(window), wrapper);
+        });
+        
+      });
+    </script>        
+  </body>
+</html>
